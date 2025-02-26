@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains">
+    <meta http-equiv="Cache-Control" content="no-store">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Sxmpra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="icon" href="img/Bot.webp" type="logo">
+<body>
+    <div id="chatbot">
+        <div id="chatbox">
+            <div id="chat-content">
+                <div class="message bot typing">Oi, sou a IA criada pelo Sxmpra! Vamos conversar sobre seus interesses?</div>
+                <div class="message bot typingg">Escolha uma das opções abaixo:</div>
+                <div class="message bot">
+                    <div class="option typingg" onclick="chooseOption('cursos')">🎓 Quero saber sobre os cursos</div>
+                    <div class="option typingg" onclick="chooseOption('orcamento')">💼 Fazer um orçamento</div>
+                    <div class="option typingg" onclick="chooseOption('hacker')">🛡️ Saber sobre a área hacker               </div>
+            </div>
+        </div>
+        <div id="back-button" class="back-button" onclick="goBack()">← Voltar</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
